@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhots/hotels?serverTimezone=UTC
+    url: jdbc:mysql://localhost/hotels?serverTimezone=UTC
     username: root
     password: admin
   jpa:
