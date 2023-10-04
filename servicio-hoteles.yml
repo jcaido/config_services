@@ -1,8 +1,4 @@
 spring:
-  data:
-    jpa:
-      repositories:
-        bootstrap-mode: deferred
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/hotels?serverTimezone=UTC
